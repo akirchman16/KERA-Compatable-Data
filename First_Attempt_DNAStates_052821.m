@@ -2,8 +2,8 @@ clearvars;
 close all;
 
 % This code will run a single iteration (unless otherwise stated by
-% "Iterations") of a simulation with the given parameters. A single
-% location will be chosen at random on the DNA lattice and tracked
+% "Iterations") of a simulation with the given parameters. All
+% locations on the DNA lattice will be tracked
 % throughout the simulation. The timings of when a protein binds to and
 % unbinds from that location will be recorded. From this the dwell time of
 % the protein on that location will be determined and a histogram of dwell
